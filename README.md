@@ -96,10 +96,10 @@ team3-handoff ── 1) 티켓 · 알림 · 실패 대기열(DLQ) 기록
 
 ```bash
 # 1) 받기 — 강사 실습 키트 레포와 같은 폴더(홈)에
-git clone https://github.com/jbbdyee/pharmacy-ai-support-orchestration.git ~/pharmacy-ai-support-orchestration
+git clone https://github.com/jbbdyee/ai-pharmacy-support-team-project.git ~/ai-pharmacy-support-team-project
 
 # 2) 팀 설정 — infra/.env 만들기, n8n Credential 등록, data-api 켜기
-cd ~/pharmacy-ai-support-orchestration && bash tools/setup.sh
+cd ~/ai-pharmacy-support-team-project && bash tools/setup.sh
 #    처음 실행하면 infra/.env만 만들고 멈춥니다. TEAM3_KEY= 에 직접 정한 긴 문자열(팀 키)을 넣고 한 번 더 실행합니다.
 #    팀 키는 웹훅 인증(X-Team-Key)과 API 인증(X-Api-Key)에 같이 쓰입니다.
 #    infra/.env는 git에 올라가지 않습니다. 키는 이 파일에만 둡니다.
